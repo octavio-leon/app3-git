@@ -2,17 +2,17 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
   xmlns:gap="http://phonegap.com/ns/1.0"
-  id ="com.phonegap.example1"
+  id ="com.phonegap.example2"
   version="1.0.0">
   
-  <name> app2 Telefonia celular </name>
+  <name> App2 Telefonia celular </name>
   
   <description>
-  Muestra informacion sobre la telefonia celular 
+  Muestra informacion sobre la telefonia celular
   </description>
   
   <author href="https://build.phonegap.com" email="octavioleonamador@gmail.com">
-  octavio leon amador 4 h  
+  Octavio Leon Amador 4 h  
   </author>
   
   <!--Personaliza la aplicacion y plataforma -->
@@ -30,6 +30,10 @@
   
   <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
   <!--Third party plugins -->
+  
+  <!--para accesar a paginas en internet-->
+  <allow-intent href="https://*/*"/>
+  
   <!--Colocar icono app -->
    
   <icon src="res/android/mdpi.png"/>
